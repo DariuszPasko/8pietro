@@ -13,6 +13,10 @@
     padding: 0px;
 }
 
+.live {
+    display: none;
+}
+
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -59,7 +63,19 @@
         float:left;
     }
     
-
+    
+    .slogan {
+        text-align: right;
+        margin: 20% 100px 0
+    }
+    
+    
+    .click {display: none;}
+    .layer {display: none;}
+    .live{display: block;}
+    .tlo{display: none;}
+    .pdf{display: none;}
+    
 
     .col-m-1 {width: 8.33%;}
     .col-m-2 {width: 16.66%;}
@@ -92,11 +108,21 @@
 
     [class*="col-"] {
         width: 100%;
-        padding: 0px;
+        padding: 0 30px;
         float:left;
     }
+    
+    h1{font-size: 40px;}
    
-
+    .slogan{
+        margin: 80% 10px 0;
+        text-align: center;
+    }
+    .slogan h1{padding: 0 0 20px 0;}
+    .video{display: none;}
+    
+    
+ 
     .col-s-1 {width: 8.33%;}
     .col-s-2 {width: 16.66%;}
     .col-s-3 {width: 25%;}

@@ -1,2 +1,147 @@
+@import url("https://fonts.googleapis.com/css?family=Anton|Archivo+Black|Oxygen");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto; }
+
+header {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  object-fit: cover; }
+
+.video {
+  position: fixed;
+  object-fit: cover;
+  z-index: 0;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0; }
+
+.tlo {
+  position: fixed;
+  object-fit: cover;
+  z-index: 0;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7); }
+
+.pdf {
+  position: absolute;
+  z-index: 3;
+  line-height: 19px;
+  top: 10px;
+  right: 10px;
+  font-size: 60px; }
+
+.pdf p {
+  color: rgba(77, 182, 172, 0.7);
+  font-size: 12px;
+  text-align: center;
+  border: 1px solid #DE0043;
+  padding: 10px;
+  border-radius: 2px;
+  box-shadow: 1px 0px 5px #000;
+  cursor: pointer; }
+  .pdf p:hover {
+    color: #4db6ac;
+    background: linear-gradient(to right, #A100A1, #DE0043); }
+
+.slogan {
+  font-family: "Archivo Black", sans-serif;
+  position: relative;
+  display: block;
+  margin: 0% auto 0px;
+  color: rgba(222, 0, 67, 0.5); }
+
+.slogan h1 {
+  font-size: 15px;
+  text-align: center; }
+
+.click {
+  position: relative;
+  display: none;
+  text-align: center; }
+
+.click a {
+  font-size: 50px;
+  text-align: center;
+  color: rgba(77, 182, 172, 0.5);
+  border-radius: 50%;
+  padding: 20px 25px;
+  background: linear-gradient(to right, #A100A1, #DE0043);
+  box-shadow: 1px 0px 5px #000; }
+  .click a:hover {
+    color: rgba(77, 182, 172, 0.8); }
+
+.logo {
+  position: relative; }
+
+.logo img {
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin: 18% auto 0px; }
+
+.btn-start {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: red;
+  margin: 40px auto;
+  text-align: center; }
+
+.works {
+  position: relative;
+  background: white; }
+
+.ofert {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  transform: 2s;
+  color: #102834; }
+  .ofert:hover {
+    background: linear-gradient(to right, #A100A1, rgba(222, 0, 67, 0.9)); }
+
+.text p {
+  display: block;
+  margin: 31.4% auto;
+  font-family: "Oxygen", sans-serif;
+  color: #102834; }
+
+.gray {
+  background: #f6f5f5;
+  transform: 2s; }
+  .gray:hover {
+    background: linear-gradient(to right, #A100A1, rgba(222, 0, 67, 0.9)); }
+
+.ofert h2 {
+  line-height: 20px;
+  text-align: center;
+  margin: 10px 0 0 0;
+  font-family: "Archivo Black", sans-serif;
+  color: #102834; }
+
+.fa {
+  color: #102834;
+  font-size: 100px;
+  display: block;
+  margin: 30% 0 10% 0;
+  text-align: center; }
+
+.realizations h1 {
+  background: #f6f5f5;
+  text-align: center;
+  padding: 5% 0;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 50px; }
 
 /*# sourceMappingURL=style.css.map */
