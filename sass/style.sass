@@ -18,6 +18,9 @@ $background-head: #f6f5f5
 
   
 // header ---------------------------------------------------------- //
+body
+  font-family: $font-family-Oxygen
+
 header
   position: relative
   height: 100vh
@@ -43,30 +46,37 @@ header
   left: 0
   background: rgba(0, 0, 0, 0.8)
 
-
-
 .pdf
   position: absolute
-  display: none
   z-index: 3
-  line-height: 19px
-  top: 10px
-  right: 10px
-  font-size: 60px
+  top: 0px
+  right: 0px
+  display: inline 
+  cursor: pointer
   
 
-.pdf p
-  color: rgba(77, 182, 172, 0.7)
+.pdf .fa
+  float: left
   font-size: 12px
-  text-align: center
-  border: 1px solid #DE0043
-  padding: 10px
-  border-radius: 2px
-  box-shadow: 1px 0px 5px #000
-  cursor: pointer
-  &:hover
-    color: rgba(77, 182, 172, 1)
-    background: linear-gradient(to right, #A100A1, #DE0043)
+  color: $background-head
+  margin: 10px 0 0
+  background: $color-h2-head
+  padding: 10px 0 13px 10px
+  border-radius: 5px 0 0 5px
+ 
+    
+.pdf p
+  display: inline
+  float: left
+  font-size: 12px
+  margin: 10px 0 0
+  background: $color-h2-head
+  padding: 10px 20px 10px 10px
+  
+.pdf a
+  text-decoration: none
+  color: $background-head
+   
   
   
 .slogan
@@ -214,7 +224,7 @@ header
 
 
 
-// ------ sekcion 3 --------------------------//
+// ------ sekcion 3  o nas --------------------------//
 .section-3
   position: relative
   background: rgba(255, 255, 255, 0.3)
@@ -229,16 +239,17 @@ header
 .section-3 p
   font-size: 20px
   font-family: $font-family-Oxygen
-  padding: 5px 50px 50px
+  padding: 5px 30px 50px
+  text-align: justify
 .section-3 h3
   font-size: 20px
   font-family: $font-family-Archivo
-  padding: 50px 50px 0 
+  padding: 50px 30px 10px 
 .selection-3-tlo
   background: linear-gradient(to right, #A100A1, rgba(222, 0, 67, 1))
   color: $background-head
 .selection-3-tlo p
-  padding: 5px 50px 130px
+  padding: 5px 30px 75px
   
  
     
@@ -257,7 +268,7 @@ header
   color:  $color-h2-head
 .how p 
   text-align: center
-  padding: 20px 10px
+  padding: 20px 15px
   font-family: $font-family-Oxygen
 .how h3
   font-size: 20px
@@ -287,3 +298,51 @@ header
       color: $background-head
       margin: 0
   
+// contact -------------------------------------------- //
+.contact
+  font-family: $font-family-Oxygen
+  background: $background-head 
+  
+.contact h2
+  padding: 0 0 20px 0
+  color:  $color-h2-head
+  font-family: $font-family-Archivo
+  text-align: center
+
+.contact h3
+  color:  $color-h2-head
+  text-align: center
+ 
+
+.contact h1
+  background: $color-h2-head
+  color: $background-head 
+  text-align: center
+  padding: 5% 0
+  font-family: $font-family-Archivo
+  font-size: 50px
+.contact p
+  text-align: center
+  color: $color-h2-head
+.contact img
+  width: 100%
+.contact-text
+  display: block
+  margin: 15% auto
+
+// footer -------------------------------------------- //
+
+footer
+  background: $color-h2-head
+  color: $background-head 
+  padding: 10px 30px
+  color: $background-head
+  font-family: $font-family-Oxygen
+  font-size: 10px
+footer img
+  display: block
+  width: 50px
+footer p
+  text-align: right
+  line-height: 60px
+

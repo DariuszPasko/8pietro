@@ -8,6 +8,9 @@
   max-width: 1200px;
   margin: 0 auto; }
 
+body {
+  font-family: "Oxygen", sans-serif; }
+
 header {
   position: relative;
   height: 100vh;
@@ -35,25 +38,32 @@ header {
 
 .pdf {
   position: absolute;
-  display: none;
   z-index: 3;
-  line-height: 19px;
-  top: 10px;
-  right: 10px;
-  font-size: 60px; }
+  top: 0px;
+  right: 0px;
+  display: inline;
+  cursor: pointer; }
+
+.pdf .fa {
+  float: left;
+  font-size: 12px;
+  color: #f6f5f5;
+  margin: 10px 0 0;
+  background: #102834;
+  padding: 10px 0 13px 10px;
+  border-radius: 5px 0 0 5px; }
 
 .pdf p {
-  color: rgba(77, 182, 172, 0.7);
+  display: inline;
+  float: left;
   font-size: 12px;
-  text-align: center;
-  border: 1px solid #DE0043;
-  padding: 10px;
-  border-radius: 2px;
-  box-shadow: 1px 0px 5px #000;
-  cursor: pointer; }
-  .pdf p:hover {
-    color: #4db6ac;
-    background: linear-gradient(to right, #A100A1, #DE0043); }
+  margin: 10px 0 0;
+  background: #102834;
+  padding: 10px 20px 10px 10px; }
+
+.pdf a {
+  text-decoration: none;
+  color: #f6f5f5; }
 
 .slogan {
   font-family: "Oxygen", sans-serif;
@@ -192,19 +202,20 @@ header {
 .section-3 p {
   font-size: 20px;
   font-family: "Oxygen", sans-serif;
-  padding: 5px 50px 50px; }
+  padding: 5px 30px 50px;
+  text-align: justify; }
 
 .section-3 h3 {
   font-size: 20px;
   font-family: "Archivo Black", sans-serif;
-  padding: 50px 50px 0; }
+  padding: 50px 30px 10px; }
 
 .selection-3-tlo {
   background: linear-gradient(to right, #A100A1, #de0043);
   color: #f6f5f5; }
 
 .selection-3-tlo p {
-  padding: 5px 50px 130px; }
+  padding: 5px 30px 75px; }
 
 .how h1 {
   background: #f6f5f5;
@@ -216,7 +227,7 @@ header {
 
 .how p {
   text-align: center;
-  padding: 20px 10px;
+  padding: 20px 15px;
   font-family: "Oxygen", sans-serif; }
 
 .how h3 {
@@ -247,5 +258,54 @@ header {
     background: linear-gradient(to right, #A100A1, #de0043);
     color: #f6f5f5;
     margin: 0; }
+
+.contact {
+  font-family: "Oxygen", sans-serif;
+  background: #f6f5f5; }
+
+.contact h2 {
+  padding: 0 0 20px 0;
+  color: #102834;
+  font-family: "Archivo Black", sans-serif;
+  text-align: center; }
+
+.contact h3 {
+  color: #102834;
+  text-align: center; }
+
+.contact h1 {
+  background: #102834;
+  color: #f6f5f5;
+  text-align: center;
+  padding: 5% 0;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 50px; }
+
+.contact p {
+  text-align: center;
+  color: #102834; }
+
+.contact img {
+  width: 100%; }
+
+.contact-text {
+  display: block;
+  margin: 15% auto; }
+
+footer {
+  background: #102834;
+  color: #f6f5f5;
+  padding: 10px 30px;
+  color: #f6f5f5;
+  font-family: "Oxygen", sans-serif;
+  font-size: 10px; }
+
+footer img {
+  display: block;
+  width: 50px; }
+
+footer p {
+  text-align: right;
+  line-height: 60px; }
 
 /*# sourceMappingURL=style.css.map */
